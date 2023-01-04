@@ -1,0 +1,14 @@
+best_of: 1
+engine: text-davinci-003
+frequency_penalty: 0
+inject_restart_text: '
+
+  You: '
+inject_start_text: '
+
+  '
+max_tokens: 1600
+presence_penalty: 0
+stop: null
+temperature: 0.7
+top_p: 1.0

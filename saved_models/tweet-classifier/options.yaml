@@ -1,0 +1,14 @@
+best_of: 1
+engine: text-davinci-003
+frequency_penalty: 0.5
+inject_restart_text: '
+
+  Tweet: "'
+inject_start_text: '"
+
+  Sentiment: '
+max_tokens: 60
+presence_penalty: 0
+stop: null
+temperature: 0.0
+top_p: 1.0

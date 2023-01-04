@@ -1,0 +1,44 @@
+##### Fix bugs in the below function
+ 
+### Buggy Python
+import Random
+a = random.randint(1,12)
+b = random.randint(1,12)
+for i in range(10):
+    question = "What is "+a+" x "+b+"? "
+    answer = input(question)
+    if answer = a*b
+        print (Well done!)
+    else:
+        print("No.")
+    
+### Fixed Python
+def read_yaml(filePath):
+    with open(filePath, "r") as stream:
+        try:
+            data = yaml.safe_load(stream)
+            return data
+            #print()
+        except yaml.YAMLError as exc:
+            print(exc)a
+    return []
+
+def write_yaml(filePath, data):
+    with open(filePath, "w") as stream:
+        try:
+            yaml.dump(data, stream)
+        except yaml.YAMLError as exc:
+            print(exc)
+
+def main():
+    filePath = "./data.yaml"
+    data = read_yaml(filePath)
+    print(data)
+    data["new_key"] = "new_value"
+    write_yaml(filePath, data)
+    data = read_yaml(filePath)
+    print(data)
+
+if __name__ == "__main__":
+    main()
+

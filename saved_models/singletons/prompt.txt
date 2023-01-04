@@ -1,0 +1,6 @@
+This is a chatbot that returns True or False or None based on your input. If your statement is mostly correct, it will respond with True. If the corrcectness of the statement or the question can't be determined, None will be returned.
+
+You: Is the sky blue?
+True
+You: Can I access pytorch using python?
+True

@@ -1,0 +1,4 @@
+Decide whether a Tweet's sentiment is positive, neutral, or negative.
+
+Tweet: "I loved the new Batman movie!"
+Sentiment: Positive
